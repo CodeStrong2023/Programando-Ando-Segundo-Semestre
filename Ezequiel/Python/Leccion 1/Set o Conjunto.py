@@ -23,3 +23,26 @@ print(planetas)
 #eliminar set o conjunto
 del planetas
 print(planetas)#al eliminar nos muestra un error
+
+
+##REPASO DE  CONJUNTOS
+#en los  conjuntos se puede agregar un solo ellemtno a la vez
+
+conjunto = set()
+conjunto1 = {'bye', }
+conjunto.add(7)
+conjunto.add('Hola')
+print(conjunto)
+conjunto1.add('hola')
+print(conjunto1)
+
+#preguntamos si el numero 3 no esta en el conjunto1
+print(3 not in conjunto1)
+
+#igualdad entre conjuntos, nos va a devolver un bool, true o false
+
+print(conjunto1 == conjunto)
+
+#operaciones en conjuntos
+
+

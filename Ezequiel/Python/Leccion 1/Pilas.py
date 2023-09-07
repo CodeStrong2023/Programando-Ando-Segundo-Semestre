@@ -29,3 +29,5 @@ print(cola)
 seRetira = cola.pop(0)
 print(f'Atendido el cliente: {seRetira}')
 print(cola)
+
+#Agrego una linea para poder comiteargit status

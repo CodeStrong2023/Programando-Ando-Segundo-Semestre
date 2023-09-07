@@ -51,3 +51,40 @@ print(diccionario)
 
 #vaciar un diccionario
 diccionario.clear()
+
+
+##REPASO DE DICCIONARIO
+diccionarioNuevo = {'Azul' : 'Blue', 'Rojo' : 'Red', 'verde' : 'Green', 'Amarillo' : 'Yellow'}
+print(diccionarioNuevo)
+
+seleccionArgentina = {
+    10: {'Nombre' : 'Lionel Messi', 'Edad' : 35, "Altura" : 1.70, "Precio" : '50 Millones', 'Posicion' : 'Extremo Derecho'},
+11: {'Nombre' : 'Angel Di Maria', 'Edad' : 34, "Altura" : 1.80, "Precio" : '12 Millones', 'Posicion' : 'Extremo Derecho'},
+24: {'Nombre' : 'Paulo Dybala', 'Edad' : 28, "Altura" : 1.77, "Precio" : '35 Millones', 'Posicion' : 'Media Punta'},
+19: {'Nombre' : 'Nicolas Otamendi', 'Edad' : 34, "Altura" : 1.83, "Precio" : '3.5 Millones', 'Posicion' : 'Defensa Central'},
+}
+
+print(seleccionArgentina.values())
+
+#recorrer el arreglo
+for valor in seleccionArgentina:
+    print(valor)
+
+##recorrer la llave y el valor
+for llave, valor in seleccionArgentina.items():
+    print(llave, valor)
+
+##TAREA AGREGAR 4 JUGADORES MAS A LA SELECCIONARGENTINA
+
+# Jugadores a agregar
+jugadores_nuevos = {
+    7: {'Nombre': 'Gonzalo Higuain', 'Edad': 34, 'Altura': 1.85, 'Precio': '15 Millones', 'Posicion': 'Delantero'},
+    8: {'Nombre': 'Ezequiel Garay', 'Edad': 35, 'Altura': 1.88, 'Precio': '5 Millones', 'Posicion': 'Defensa Central'},
+    9: {'Nombre': 'Leandro Paredes', 'Edad': 27, 'Altura': 1.82, 'Precio': '25 Millones', 'Posicion': 'Centrocampista'},
+    21: {'Nombre': 'Lucas Ocampos', 'Edad': 27, 'Altura': 1.78, 'Precio': '20 Millones', 'Posicion': 'Extremo Izquierdo'}
+}
+
+# Agregar los jugadores nuevos al diccionario utilizando el método update
+seleccionArgentina.update(jugadores_nuevos)
+
+print(seleccionArgentina)

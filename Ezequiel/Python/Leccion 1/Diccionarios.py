@@ -88,3 +88,8 @@ jugadores_nuevos = {
 seleccionArgentina.update(jugadores_nuevos)
 
 print(seleccionArgentina)
+
+# Seguimos mostrando como recorrer un diccionario con el ciclo for
+
+for i in seleccionArgentina:
+    print(f'{i} => {seleccionArgentina}')

@@ -74,7 +74,7 @@ for valor in seleccionArgentina:
 for llave, valor in seleccionArgentina.items():
     print(llave, valor)
 
-##TAREA AGREGAR 4 JUGADORES MAS A LA SELECCIONARGENTINA
+##TAREA AGREGAR 4 JUGADORES MAS A LA SELECCION ARGENTINA
 
 # Jugadores a agregar
 jugadores_nuevos = {

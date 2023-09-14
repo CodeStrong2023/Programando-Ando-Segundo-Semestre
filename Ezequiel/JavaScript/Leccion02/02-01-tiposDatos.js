@@ -21,3 +21,30 @@ var objeto = {
 }
 
 console.log(typeof objeto);
+
+// tipo de datos boolean
+var bandera = true;
+console.log(bandera);
+
+//  funciones son tipos de datos
+
+function miFuncion() {
+    
+}
+console.log(miFuncion);
+
+// dato symbol
+
+var simbolo = Symbol("Mi simbolo");
+console.log(typeof simbolo);
+
+// Tipo da dato Clase
+
+class Persona {
+    constructor(nombre, apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
+}
+
+console.log(Persona);

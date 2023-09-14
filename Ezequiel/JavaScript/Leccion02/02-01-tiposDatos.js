@@ -5,6 +5,11 @@ muchas lineas */
 
 var nombre = 'ezequiel';//tipo string
 console.log(nombre);
+nombre = 7;
+console.log(typeof nombre);
+
+nombre = 12.3;
+console.log(typeof nombre);
 
 var numero = 10923431; //tipo numerico
 console.log(numero);
@@ -15,4 +20,4 @@ var objeto = {
     telefono: "12312414"
 }
 
-console.log(objeto)
+console.log(typeof objeto);

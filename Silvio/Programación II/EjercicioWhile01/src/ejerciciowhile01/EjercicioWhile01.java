@@ -19,7 +19,7 @@ public class EjercicioWhile01 {
         for(var contar = 0;contar<7;contar++){
             System.out.println("contar = " + contar);
         }
-        
+        //comentario para commit
     }
     
 }

@@ -16,10 +16,15 @@ public class EjercicioWhile01 {
             contador++;
         }while(contador<7);
         
+        inicio: //Etiqueta (label)
         for(var contar = 0;contar<7;contar++){
+            if(contar % 2 ==0){
+                continue inicio;
+            }
             System.out.println("contar = " + contar);
         }
-        //comentario para commit
+        
+        
     }
     
 }

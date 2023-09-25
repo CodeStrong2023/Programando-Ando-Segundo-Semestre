@@ -21,6 +21,8 @@ mi_lista2.sort()  # Ordena la lista en orden ascendente
 print("Lista: ")
 print(mi_lista2)  # Resultado: [1, 1, 2, 3, 3, 4, 5, 5, 6, 9]
 
+# -----------------------------------------------------------------------------------------
+
 # Tuplas: Una tupla en Python es una estructura de datos similar a una lista, pero con
 # una diferencia importante: las tuplas son inmutables, lo que significa que una vez que
 # se crean, no puedes modificar su contenido. Se utilizan para almacenar una colección
@@ -39,6 +41,8 @@ indice_de_cuatro = mi_tupla2.index(4)  # Encuentra el índice del número 4 (ín
 ubicaciones = {(1, 2): 'Casa', (3, 4): 'Trabajo'}
 print(ubicaciones)
 
+# -----------------------------------------------------------------------------------------
+
 # Set (Conjunto): Un conjunto en Python es una colección desordenada de elementos únicos.
 # Los conjuntos se utilizan cuando deseas almacenar elementos sin duplicados y no te importa
 # el orden en el que se almacenan. Los conjuntos son mutables, lo que significa que puedes
@@ -52,14 +56,21 @@ mi_conjunto.add(4)  # Agrega el elemento 4 al conjunto
 mi_conjunto.remove(2)  # Elimina el elemento 2 del conjunto, si no esta el elemento, genera error
 mi_conjunto.discard(5)  # Intenta eliminar el elemento 5, no genera error por no estar
 mi_conjunto.clear() # Limpia los elementos del conjunto
-del mi_conjunto # Elimina el Set
+print(3 not in mi_conjunto) # Preguntyamos si el numero 3 NO esta en el conjunto
 
 conjunto1 = {1, 2, 3, 4}
 conjunto2 = {3, 4, 5, 6}
 
 union = conjunto1 | conjunto2  # Unión de conjuntos
-interseccion = conjunto1 & conjunto2  # Intersección de conjuntos
+interseccion = conjunto1 & conjunto2  # Intersección de conjuntos (en comun)
 diferencia = conjunto1 - conjunto2  # Diferencia entre conjuntos
+print(conjunto1.issubset(conjunto2)) # pregunta si conjunto 1 esta dentro de conjunto 2
+print(mi_conjunto.issuperset(conjunto2)) # al revez que el anterior
+conjunto3 = conjunto1 ^ conjunto2 # elementos no compartidos
+print(conjunto3)
+print(conjunto1.isdisjoint(conjunto2)) # preguntar si no tienen elementos en comun
+conjunto1 = frozenset # convertir conjunto en inmutable
+del mi_conjunto # Elimina el Set
 
 # Uso de conjuntos:
 # Los conjuntos son útiles cuando necesitas almacenar una colección de elementos
@@ -71,6 +82,8 @@ mi_lista = [1, 2, 2, 3, 4, 4, 5]
 mi_set = set(mi_lista) # Al copiar la lista a un set, elimino los duplicados de la lista
 lista_sin_duplicados = list(mi_set)
 print(mi_set)
+
+# -----------------------------------------------------------------------------------------
 
 # Diccionario: Un diccionario en Python es una estructura de datos que se utiliza
 # para almacenar una colección de pares clave-valor. Cada elemento en un diccionario
@@ -98,3 +111,37 @@ persona = {
 
 print("Diccionario:")
 print(persona)
+
+# -----------------------------------------------------------------------------------------
+
+# Metodo con listas llamado PILAS
+pila = [1, 2, 3]
+
+# Agregar elementos a la pila por el final
+pila.append(4)
+pila.append(5)
+print(pila)
+
+# Sacando elementos por el final
+deleted_element = pila.pop() # Quita el ultimo elemento y lo guarda en la variable
+print(pila)
+
+# -----------------------------------------------------------------------------------------
+
+# Metodo con listas llamado COLA
+# Estructura de datos de tipo fifo (first input / first output)
+cola = ['Ariel', 'Osvaldo', 'Liliana', 'Pilar']
+
+# Agregamos elementos al final de la cola
+cola.append('Natalia')
+cola.append('Jose')
+print(cola)
+
+# Sacamos elementos de la cola
+seRetira = cola.pop(0)
+print(f'Atendido {seRetira}')
+print(cola)
+
+seRetira = cola.pop(0)
+print(f'Atendido {seRetira}')
+print(cola)

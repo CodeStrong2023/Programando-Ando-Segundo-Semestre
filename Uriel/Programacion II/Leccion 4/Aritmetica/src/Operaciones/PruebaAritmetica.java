@@ -24,9 +24,21 @@ public class PruebaAritmetica {
         Aritmetica aritmetica2 = new Aritmetica(5, 8);
         System.out.println("aritmetica2 a: "+aritmetica2.a);
         System.out.println("aritmetica2 b: "+aritmetica2.b);
+        Persona persona = new Persona("Uriel", "Pardo");
+        System.out.println("persona = " + persona);
+        System.out.println("Persona nombre: "+persona.nombre);
+        System.out.println("Persona apellido: "+persona.apellido);
     }
     public static void miMetodo(){
         //a = 10;
         System.out.println("Aqui hay otro metodo");
+    }
+}
+class Persona{
+    String nombre;
+    String apellido;
+    Persona(String nombre, String apellido){
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 }

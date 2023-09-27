@@ -9,6 +9,6 @@
 #     lista.append(i)
 #     i += 1
 lista = list(range(1,51))
-for i in lista :
+for i in lista:
     print(i, end= '-')
     

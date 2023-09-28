@@ -61,3 +61,20 @@ def sumar(a,b):
 resultado = sumar(78 + 22)
 # print(f'El resultado  de la suma es: {resultado}')
 print(f'El resultado  de la suma es: {sumar(78 + 22)}')
+
+## Valores por default en argumentos
+
+def sumar2(a =0, b = 0):
+    return a+b
+resultado = sumar2()
+print(f'Resultado de la suma: {resultado}')
+print(f'Resultado de la suma: {sumar2(22,66)}')
+
+
+## argumentos, variables en funciones
+
+def listarNombres(*nombres):
+    for nombre in nombres:
+        print(nombre)
+listarNombres('Lucas','Jose','Claudia','Rosa','Maria')
+listarNombres('Marcos','Daniel','Romina','Pepe','Marcela','Carlos')

@@ -29,6 +29,11 @@ public class PruebaAritmetica {
         System.out.println("aritmetica2 b: " + aritmetica2.b);
         //aritmetica1 = null; Nunca utiliar esto, no se debe hacer
         //System.gc(); Metodo para limpiar residuos, es pesado, no usar
+        
+        Persona persona = new Persona("Ezequiel", "Lorenz");
+        System.out.println("Persona: " + persona);
+        System.out.println("Persona nombre: " + persona.nombre);
+        System.out.println("Persona apellido: " + persona.apellido);
     }
     public static void miMetodo(){
         //a = 10; esta variable esta limitada
@@ -37,4 +42,14 @@ public class PruebaAritmetica {
     
     //Una variable local trabaja con la memoria Stack y la memoria con lo que
     // trabajaan los objetos y atributos es la memoria Heap
+}
+
+class Persona{
+    String nombre;
+    String apellido;
+    
+    Persona(String nombre, String apellido){
+        this.nombre = nombre;
+        this.apellido = apellido;
+    }
 }

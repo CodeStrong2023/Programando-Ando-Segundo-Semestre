@@ -78,3 +78,22 @@ def listarNombres(*nombres):
         print(nombre)
 listarNombres('Lucas','Jose','Claudia','Rosa','Maria')
 listarNombres('Marcos','Daniel','Romina','Pepe','Marcela','Carlos')
+
+def listarTerminos(**terminos): # lo mas utilizado es **kwargs para recibir los argumnetos
+    for llave, valor in terminos.items():
+        print(f'{llave} : {valor}')
+
+listarTerminos() #no recibe nada, nad va a mostrar
+listarTerminos(IDE='Integrated development Enviroment', PK='Primary Key')
+listarTerminos(Nombre='Leonel Messi')
+
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+nombres2 = ['Tito','Pedro','Carlos']
+desplegarNombres(nombres2)
+desplegarNombres('Carla')
+# desplegarNombres(10,11) #no es un objeto iterable
+desplegarNombres((10, 11)) # lo convertimos en tupla, en un solo elemento no olvidar la coma
+desplegarNombres([22, 55]) # la convertimos en una lista

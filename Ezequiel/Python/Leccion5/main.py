@@ -97,3 +97,13 @@ desplegarNombres('Carla')
 # desplegarNombres(10,11) #no es un objeto iterable
 desplegarNombres((10, 11)) # lo convertimos en tupla, en un solo elemento no olvidar la coma
 desplegarNombres([22, 55]) # la convertimos en una lista
+
+# Funciones Recursivas
+def factorial(numero):
+    if numero == 1: #Caso Base
+        return 1
+    else:
+        return numero * factorial(numero -1) # Caso recursivo
+
+resultado = factorial(5) #lo hacemos hardcode
+print(f'El factorial del numero 5 es: {resultado}')

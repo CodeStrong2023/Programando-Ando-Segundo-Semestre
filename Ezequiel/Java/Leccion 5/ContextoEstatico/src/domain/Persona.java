@@ -5,6 +5,8 @@ package domain;
  */
 public class Persona {
     private int idPersona;
+    
+    //al ser estatic no se va a inicializar cada vez que se cree un objeto.
     private static int contadorPersona;
     private String nombre;
     
@@ -16,6 +18,15 @@ public class Persona {
         //Se asigna un nuevo valor a la variable idPersona
         this.idPersona = Persona.contadorPersona;
     }
+    
+    public static int getContadorPersona(){
+        return contadorPersona;
+    }
+
+    public static void setContadorPersona(int contadorPersona) {
+        Persona.contadorPersona = contadorPersona;
+    }
+    
     
     public int getIdPersona(){
         return idPersona;

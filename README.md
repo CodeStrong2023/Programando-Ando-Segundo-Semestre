@@ -14,7 +14,7 @@
   </tr>
   <tr>
     <td>Silvio Stefanucci</td>
-    <td>10519</td>
+    <td>10.519</td>
   </tr>
   <tr>
     <td>Jonathan Burgos</td>

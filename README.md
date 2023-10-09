@@ -1,5 +1,5 @@
 <h1>PROGRAMANDO ANDO</h1>
-<img src="https://github.com/CodeStrong2023/Programando-Ando-Segundo-Semestre/assets/132927111/3e87a0d4-4fab-4aab-a46e-61299e8615a5">
+<img src="https://github.com/CodeStrong2023/Programando-Ando-Segundo-Semestre/assets/132927111/1623f6cc-5ea1-4e43-9c60-b9974d2983b9">
 <hr>
 <h2>Miembros</h2>
 

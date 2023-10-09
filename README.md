@@ -1,13 +1,12 @@
-# Programando-Ando-Segundo-Semestre
 <h1>PROGRAMANDO ANDO</h1>
-![Sin título](https://github.com/CodeStrong2023/Programando-Ando-Segundo-Semestre/assets/132927111/dfa1e370-217d-4e56-bb22-d20c9005b61d)
+<img src="https://github.com/CodeStrong2023/Programando-Ando-Segundo-Semestre/assets/132927111/3e87a0d4-4fab-4aab-a46e-61299e8615a5">
 <hr>
 <h2>Miembros</h2>
 
 <table>
   <tr>
-    <th>Columna 1</th>
-    <th>Columna 2</th>
+    <th>Alumno</th>
+    <th>Nº Legajo</th>
   </tr>
   <tr>
     <td>Uriel Pardo</td>

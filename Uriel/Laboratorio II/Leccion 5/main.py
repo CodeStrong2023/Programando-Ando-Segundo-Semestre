@@ -50,7 +50,7 @@ def sumar(a, b):
 resultado = sumar(78, 28)
 print(f'El resultado de la suma es {resultado}')
 print(f'El resultado de la suma es {sumar(55, 45)}')
-'''
+
 def sumar2(a = 0, b = 0):
     return a+b
 resultado = sumar2()
@@ -63,3 +63,33 @@ def listarNombres(*nombres): #Pro lo general se utiliza la variable *args
          print(nombre)
 listarNombres("Lucas", "Jose", "Claudia", "Rosa", "Maria")
 listarNombres("Marcos", "Daniel", "Romina", "Pepe", "Marcela", "Carlos")
+
+
+def listarTerminos(**terminos): #Lo mas utilizado es  **kwargs para recibir los argumentos
+    for llave, valor in terminos.items(): #kwargs significa key word arguments
+        print(f'{llave}: {valor}')
+
+listarTerminos() #No recibe nada, no se va  amostrar nada
+listarTerminos(IDE= 'Integrated Developement Enviroment', PK = 'Primary Key')
+listarTerminos(Nombre= 'Lionel Messi')
+
+def desplegarNombres(nombres):
+    for nombre in nombres:
+        print(nombre)
+
+nombres2 = ['Tito', 'Pedro', 'Carlos']
+desplegarNombres(nombres2)
+desplegarNombres('Carla')
+#desplegarNombres(10) #NO es un objeto iterable
+desplegarNombres((10, 11)) #Lo convertimos a una tupla
+desplegarNombres([22, 55]) #Lo convertimos en una lista
+'''
+#Funciones recursivas
+def factorial(numero):
+    if numero == 1:#Caso base
+        return 1
+    else:
+        return numero * factorial(numero-1)
+
+numero = int(input('Digite el numero a calcular el factorial\n'))
+print(f'El factorial de {numero} es:\n{factorial(numero)}')

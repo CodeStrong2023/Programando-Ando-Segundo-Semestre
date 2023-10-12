@@ -25,16 +25,39 @@ public class PruebaAritmetica {
         System.out.println("aritmetica2 = " + aritmetica2.b);
         //aritmetica1 = null;nunca utilizar esto, no se debe hacer
         //System.gc(); metodo para limpiar residuos, es pesado, no utilizar
-        
-        
+        Persona persona = new Persona("ariel", "betancut");
+        System.out.println("persona nombre: "+persona.nombre);
+        System.out.println("persona nombre: "+persona.apellido);
     }
+    //modularidad creamos un nuevo metodo
     public static void miMetodo(){
         //int a = 10; //una variable esta limitada
         System.out.println("aqui hay otro metodo");
-        
-        
-        
-        
-        
+         
+    }
+}
+
+class Persona{
+    String nombre;
+    String apellido;
+    
+    Persona(String nombre, String apellido){//constructor
+        super(); //llamada al constructor de la clase Padre object
+        //Imprimir imprimir = new Imprimir();
+        new Imprimir().imprimir(this);
+        this.nombre = nombre;
+        this.apellido = apellido;
+        System.out.println("objeto persona ussando this: "+this);
+  
+    }
+       
+}
+class Imprimir{
+    public Imprimir(){
+        super();
+    }
+    public void imprimir(Persona persona){
+        System.out.println("persona desde la clase imprimir: "+persona);
+        System.out.println("impresion del objeto actual (this): "+this);
     }
 }

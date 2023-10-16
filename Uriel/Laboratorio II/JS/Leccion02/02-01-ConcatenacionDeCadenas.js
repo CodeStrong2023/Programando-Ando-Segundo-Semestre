@@ -16,10 +16,11 @@ console.log(nombre)
 
 let nombre2 = 'Pedro'
 console.log(nombre2);
-const appellido = 'Lepes';
-console.log(apellido); //Una variable const no puede ser modificada
+const apellido2 = 'Lepes';
+console.log(apellido2); //Una variable const no puede ser modificada
 
 let x, y; //Se pueden crear variables dentro de una misma linea
 x = 17, y = 21; //Se pueden designar varias variables en una misma linea
 let z = x+y;
 console.log(z);
+

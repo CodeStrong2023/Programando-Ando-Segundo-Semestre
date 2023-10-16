@@ -17,9 +17,6 @@ public class aritmetica {
         System.out.println("se esta ejecutando este constructor numero dos");
     }
     
-    
-    
-    
     //metodo
     public void sumarNumeros(){
         int resultado = a + b;

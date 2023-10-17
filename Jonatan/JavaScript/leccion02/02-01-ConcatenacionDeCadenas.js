@@ -28,3 +28,12 @@ let $break = "Rompe";//no se utilizan palaras reservadas
 
 console.log(_num1);
 console.log($break);
+
+
+// Hoy ya no se utiliza var, se utiliza let y const
+
+let nombre3 = "Pedro";
+console.log(nombre3);
+
+const apellido3 = "Marquinio";
+console.log(apellido3);

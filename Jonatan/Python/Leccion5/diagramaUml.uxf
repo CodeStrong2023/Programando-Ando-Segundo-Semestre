@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>12</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>204</x><y>12</y><w>180</w><h>144</h></coordinates><panel_attributes>&lt;Persona&gt;
+--
+-Nombre: str
+-Apellido: str
+-Edad: int
+_
+mostrar_detalles ()</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>276</x><y>144</y><w>36</w><h>192</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;140</additional_attributes></element><element><id>Relation</id><coordinates><x>276</x><y>300</y><w>204</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;150;10</additional_attributes></element><element><id>Relation</id><coordinates><x>96</x><y>300</y><w>216</w><h>36</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>160;10;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>444</x><y>300</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>96</x><y>300</y><w>36</w><h>108</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>UMLClass</id><coordinates><x>144</x><y>276</y><w>108</w><h>24</h></coordinates><panel_attributes>&lt;instanceOf&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>324</x><y>276</y><w>108</w><h>24</h></coordinates><panel_attributes>&lt;instanceOf&gt;</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>0</x><y>384</y><w>252</w><h>84</h></coordinates><panel_attributes>Persona1: Persona
+--
+-nombre: str = 'Ariel'
+-apellido: str = 'Bentancud'
+edad: int = 30</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>336</x><y>384</y><w>252</w><h>84</h></coordinates><panel_attributes>Persona2: Persona
+--
+-nombre: str = 'Osvaldo'
+-apellido: str = 'Giordanini'
+edad: int = 50</panel_attributes><additional_attributes></additional_attributes></element></diagram>

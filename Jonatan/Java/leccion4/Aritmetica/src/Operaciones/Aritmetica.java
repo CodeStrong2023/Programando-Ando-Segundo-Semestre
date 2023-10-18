@@ -12,8 +12,18 @@ public class Aritmetica {//clase siempre comienza con mayusculas
         int resultado = a + b;
         System.out.println("resultado = " + resultado);
         
-        
     }
     
+    public int sumarConRetorno(){
+        int resultado = a + b;
+        return resultado;
+    }
+    public int sumarConArgumentos(int a, int b){//el argumento es la informacion que va a recibir el metodo
+        this.a = a;//el argumento se asigna al atributo this.a
+        this.b = b;
+        //return a + b;
+        return sumarConRetorno();//usamos un metodo dentro de otro metodo :)
+    }
+    //operador this se crea automaticamente y es opcional
     
 }

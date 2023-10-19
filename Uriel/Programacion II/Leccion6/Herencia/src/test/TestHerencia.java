@@ -12,5 +12,6 @@ public class TestHerencia {
         Date date1 = new Date();
         Cliente cliente1 = new Cliente(date1, true, "Gaston", 'M', 27, "9 de Julio 1413");
         System.out.println("cliente1 = " + cliente1);
+    
     }
 }

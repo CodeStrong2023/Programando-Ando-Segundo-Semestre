@@ -57,3 +57,6 @@ Operadores relacionales(Boolean)
 <=
 >=
 
+Operadores logicos
+and -> && 
+or -> ||

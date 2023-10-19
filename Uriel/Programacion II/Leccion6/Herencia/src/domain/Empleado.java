@@ -9,9 +9,14 @@ public class Empleado extends Persona{
     private double sueldo;
     private static int contadorEmpleado; //Es para incrementar
 
-    public Empleado(String nombre, double sueldo) {
-        super(nombre);
+    public Empleado(){
         this.idEmpleado = ++Empleado.contadorEmpleado;
+
+    }
+    public Empleado(String nombre, double sueldo) {
+        //super(nombre); Llamado a traves del padre
+        this();
+        this.nombre = nombre;//Lo hereda y se puede usar a traves de la herencia
         this.sueldo = sueldo;
     }
 

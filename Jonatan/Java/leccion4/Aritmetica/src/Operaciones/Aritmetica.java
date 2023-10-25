@@ -6,6 +6,17 @@ public class Aritmetica {//clase siempre comienza con mayusculas
     int a;
     int b;
     
+    //Constructor
+    //el Contructor es un Metodo especial y cumple 3 objetivos
+    public Aritmetica(){
+        System.out.println("Se esta ejecutando este constructor numero 1");
+    }
+    //estamos viendo lo que se llama sobrecarda de constructores
+    public Aritmetica(int a,int b){//constructor 2
+        this.a = a;
+        this.b = b;
+        System.out.println("Se esta ejecutando el constructor numero 2");
+    }
     //METODO
     public void sumarNumeros(){//metodos siempre camel case
         //estas variables se destruyen a terminar de ejecutar el programa

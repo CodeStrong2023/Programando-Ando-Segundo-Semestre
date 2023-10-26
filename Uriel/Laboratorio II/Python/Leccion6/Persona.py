@@ -25,3 +25,6 @@ print(f'Obejto modificado -> Nombre: {persona1.nombre}, Apellido: {persona1.apel
 
 persona1.mostrarDetalle()
 persona2.mostrarDetalle()
+
+persona1.telefono  = "2604121212"
+print(f'Este es el telefono de {persona1.nombre} = {persona1.telefono}')

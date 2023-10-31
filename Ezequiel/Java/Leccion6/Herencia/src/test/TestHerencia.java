@@ -1,6 +1,11 @@
 
 package test;
 
-public class TestHerencia {
+import domain.Empleado;
 
+public class TestHerencia {
+    public static void main(String[] args) {
+        Empleado empleado1 = new Empleado("Ezequiel", 57000.0);
+        System.out.println("empleado = " + empleado1);
+    }
 }

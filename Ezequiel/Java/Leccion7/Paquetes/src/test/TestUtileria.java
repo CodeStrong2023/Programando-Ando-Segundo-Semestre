@@ -1,12 +1,14 @@
 
 package test;
 
-/**
- *
- * @author Charly Cimino
- * Aprendé más Java en mi canal: https://www.youtube.com/c/CharlyCimino
- * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
- */
-public class TestUtileria {
+import ar.com.codesystem.*;
+//import ar.com.codesystem.Utileria;
+//import static ar.com.codesystem.Utileria; solo aplica para metodos estaticos
 
+public class TestUtileria {
+    public static void main(String[] args) {
+        Utileria.imprimir("Saludo a todos los profesores de la tecnicatura");
+        //imprimir("Terminamos en unos minutos")
+        ar.com.codesystem.Utileria.imprimir("Ahora si terminamos");
+    }
 }

@@ -31,6 +31,7 @@ public class Empleado extends Persona {
         sb.append("Empleado{");
         sb.append("idEmpleado=").append(idEmpleado);
         sb.append(", sueldo=").append(sueldo);
+        sb.append(", ").append(super.toString());
         sb.append('}');
         return sb.toString();
     }

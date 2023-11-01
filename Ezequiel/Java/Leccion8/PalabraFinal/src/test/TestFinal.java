@@ -23,5 +23,10 @@ public class TestFinal {
         //miDni = 12345; no me deja por el final
 
         // Peronsa.CONSTANTE_AQUI = 9; no se modifica
+        
+        final Peronsa persona1 = new Peronsa();
+        //persona1 = new Peronsa(); no se puede asignar una nueva referencia
+        persona1.setNombre("Ezequiel Lorenz");
+        System.out.println("persona1 nomre: " + persona1.getNombre());
     }
 }

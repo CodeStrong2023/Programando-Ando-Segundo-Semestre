@@ -17,3 +17,15 @@ z = x + y;
 
 console.log(z);
 // no su pueden poner palabras reservadas a las variables
+
+
+//hoy ya no se usa var, se utiliza let y const
+
+let nombre2 = "Pedro";
+console.log(nombre2)
+
+const apellido2 = "Lepes";
+
+//apellido2 = "Perez" no se puede modificar una constante
+
+console.log(apellido2)

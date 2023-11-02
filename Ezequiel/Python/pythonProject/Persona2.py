@@ -37,6 +37,9 @@ class Persona2:
         print('Estamos utilizando el metodo set')
         self._edad = edad
 
+    def __del__(self):
+        print(f'Persona2: {self._nombre} {self._apelido} {self._edad}')
+
 persona1 = Persona2('Ariel', 'Betancud', 41)
 print(persona1.nombre) #llamamos al metodo getter
 

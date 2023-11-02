@@ -1,6 +1,8 @@
 
 package test;
 
+import domain.Persona;
+
 
 public class TestMatrices {
     public static void main(String[] args) {
@@ -25,11 +27,33 @@ public class TestMatrices {
         
         //Sintaxis simplificada
         String frutas[][] = {{"Limon", "Pomelo"}, {"Ciruela", "Kiwi"}, {"Banana", "Manzana"}};
-        
-        for(int i = 0; i <frutas.length;i++){
+        imprimir(frutas);
+        /*for(int i = 0; i <frutas.length;i++){
             for(int j = 0; j <frutas[i].length;j++){
                 System.out.println("frutas "+i+ "-" +j+": "+frutas[i][j]);
             }
-        }
+        }*/
+        
+        
+        //Creamos una matriz de objetos
+        Persona personas [][] = new Persona [2][3];
+        
+        //Signamos valores a la matriz
+        personas[0][0] = new Persona("Ezeuqiel");
+        personas[0][1] = new Persona("Juan");
+        personas[0][2] = new Persona("Pedro");
+        personas[1][0] = new Persona("Lucas");
+        personas[1][1] = new Persona("Analia");
+        personas[1][2] = new Persona("Paula");
+        System.out.println("Matriz de personas: ");
+        imprimir(personas);
     }
+    
+    public static void imprimir(Object matriz[][]){
+        for(int i = 0; i <matriz.length;i++){
+            for(int j = 0; j <matriz[i].length;j++){
+                System.out.println("matriz "+i+ "-" +j+": "+matriz[i][j]);
+            }
+        }
+    } 
 }

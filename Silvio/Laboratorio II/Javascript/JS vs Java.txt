@@ -1,0 +1,62 @@
+Sintaxis similares entre java uy javascript
+Operadores Simplificados/Compuestos
++=
+-=
+*=
+/=
+%=
+**=
+Los operadores simplificados tambien asignan
+
+Operadores aritmeticos
++
+-
+*
+/
+%
+**
+
+Operadores de asignacion
+=
+
+Operadores de comparacion
+== Revisa el valor sin importar el tipo
+=== Revisa el valir y el tipo de dato
+
+Documentar 
+// para una linea de comentario
+/*  */ para multiples lineas de comentario
+
+Secuencias de escape
+\' Mostrar una comilla simple dentro de una cadena en la salida de informacion
+\" Mostrar una comilla doble dentro de una cadena en la salida de informacion
+\\ Baara invertida, diagonal inversa, es para mostrar un back slash
+\n salto de linea
+\r retorno
+\t tabulacion
+\b retroceso
+\f salto de pagina
+
+Operador de aumento
+++
+Ejemplo: let z = ++a; //preincremento: suma un valor a la variable y la asigna
+Ejemplo: z = a++; //postincremento: asigna el valor y luego le agrega un incremento
+
+Operador de decremento 
+--
+Ejemplo: let z = --a; //predecremento: resta un valor a la variable y la asigna
+Ejemplo: z = a--; //postdecremento: asigna el valor y luego le agrega un decremento
+
+Operador Distinto (Boolean)
+!= Comprueba la desigualdad sin revisar el tipo
+!== Comprueba el valor y tambien el tipo
+
+Operadores relacionales(Boolean)
+<
+>
+<=
+>=
+
+Operadores logicos
+and -> && 
+or -> ||

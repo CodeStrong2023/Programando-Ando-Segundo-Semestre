@@ -332,7 +332,7 @@ print(diccionario2)
 seleccionArgentina = {
     10 : {'Nombre': 'Leonel Messi', 'Edad': 35, 'Altura': 1.70,'Precio' : '50 Millones', 'Posicion': 'Extremo Derecho'},
     11 : {'Nombre': 'Angel di Maria', 'Edad': 34, 'Altura': 1.80,'Precio' : '12 Millones', 'Posicion': 'Extremo Derecho'},
-    24 : {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77,'Precio' : '35 Millones', 'Posicion': 'Media Punta'},
+    21 : {'Nombre': 'Paulo Dybala', 'Edad': 28, 'Altura': 1.77,'Precio' : '35 Millones', 'Posicion': 'Media Punta'},
     19 : {'Nombre': 'Nicolas Otamendi', 'Edad': 34, 'Altura': 1.83,'Precio' : '3.5 Millones', 'Posicion': 'Defensa Central'},
     1 : {'Nombre': 'Franco Armani', 'Edad': 35, 'Altura': 1.89,'Precio' : '3.5 Millones', 'Posicion': 'Portero'},
     #agregar 4 jugadores mas
@@ -395,5 +395,7 @@ for llave, valor in seleccionArgentina.items():
     print(f'Atendido el cliente: {seRetira}')
     print(f'Por atender: {cola}')
 
-
+#4.5 RECORREMOS EL DICCIONARIO DE LA SELECCION ARGENTINA
+for i in seleccionArgentina:
+   print(f'{i} -> {seleccionArgentina [i]}')
 

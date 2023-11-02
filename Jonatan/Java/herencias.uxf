@@ -1,0 +1,59 @@
+<diagram program="umletino" version="15.1"><zoom_level>9</zoom_level><help_text>lt=()</help_text><element><id>UMLClass</id><coordinates><x>126</x><y>108</y><w>225</w><h>63</h></coordinates><panel_attributes>&lt;FIGURA&gt;
+--
+-nLados:' int
+getNLados(): int</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>288</x><y>261</y><w>189</w><h>126</h></coordinates><panel_attributes>&lt;Cuadrado&gt;
+--
+-nLados: int
+-lado: float
+--
+Cuadrado (int nLados)
+getNLados(): int
+area Cuadrado (): float
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>45</x><y>261</y><w>189</w><h>126</h></coordinates><panel_attributes>&lt;Triangulo&gt;
+--
+-nLados: int
+-l1, l2, l3 : float
+--
+Triangulo (int nLados)
+getNLados(): int
+area Triangulo (): float
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>108</x><y>216</y><w>153</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>150;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>234</x><y>216</y><w>162</w><h>36</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;20;160;20</additional_attributes></element><element><id>Relation</id><coordinates><x>234</x><y>162</y><w>27</w><h>90</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element><element><id>Relation</id><coordinates><x>108</x><y>225</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>Relation</id><coordinates><x>369</x><y>225</y><w>27</w><h>54</h></coordinates><panel_attributes>lt=&lt;..</panel_attributes><additional_attributes>10;10;10;40</additional_attributes></element><element><id>UMLClass</id><coordinates><x>198</x><y>432</y><w>189</w><h>198</h></coordinates><panel_attributes>&lt;Persona&gt;
+--
+-nombre: String
+-genero: char
+-edad: int
+-direccion: String
+--
++getNombre(): Str
++setNombre(String): void
++getGenero(): char
++setGenero(char): void
++getEdad(): int
++setEdad(int):void
++getDireccion():STring
++setDireccion(String): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>9</x><y>765</y><w>189</w><h>108</h></coordinates><panel_attributes>&lt;Empleado?
+--
+-idEmpleado: int
+-sueldo: double
+--
++getIdEmpleado(): int
++getSueldo(): double
++getSueldo(double): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>396</x><y>765</y><w>189</w><h>171</h></coordinates><panel_attributes>&lt;Cliente&gt;
+--
+-idCliente: int
+-fechaRegistro: date
+-vip: boolean
+--
++getIdCliente():int
++getFechaRegistro(): Date
++setFechaRegistro(Date): void
++idVip(): boolean
++setVip(boolean): void</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>486</x><y>702</y><w>90</w><h>81</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>81</x><y>702</y><w>90</w><h>81</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instanceOf&gt;&gt;</panel_attributes><additional_attributes>10;10;10;70</additional_attributes></element><element><id>Relation</id><coordinates><x>81</x><y>684</y><w>216</w><h>36</h></coordinates><panel_attributes>lt=()-
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>10;20;220;20</additional_attributes></element><element><id>Relation</id><coordinates><x>270</x><y>684</y><w>243</w><h>36</h></coordinates><panel_attributes>lt=()-
+&lt;&lt;extends&gt;&gt;</panel_attributes><additional_attributes>250;20;10;20</additional_attributes></element><element><id>Relation</id><coordinates><x>279</x><y>621</y><w>27</w><h>90</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;10;80</additional_attributes></element></diagram>

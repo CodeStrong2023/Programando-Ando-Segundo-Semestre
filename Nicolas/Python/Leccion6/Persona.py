@@ -43,3 +43,5 @@ persona3.mostrar_detalle()
 #print(persona3._dni) # esto no se debe utilizar en python(esta encapsulado), esto dice que lo desconocemos python
 
 
+
+

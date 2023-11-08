@@ -1,1 +1,0 @@
-ayso Silvio Stefanucci

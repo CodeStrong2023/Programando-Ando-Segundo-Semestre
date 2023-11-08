@@ -13,7 +13,7 @@ public class Matriz_Ejercicio_3 {
         System.out.println("Rellenar la Matriz");
         for(int i = 0;i < 3;i++){
             for(int j = 0; j < 3; j ++){
-                    System.out.println("Matriz ["+i+"]["+j+"]");
+                    System.out.print("Matriz ["+i+"]["+j+"]: ");
                     matriz[i][j] = entrada.nextInt();
             }
         }
@@ -22,7 +22,7 @@ public class Matriz_Ejercicio_3 {
         System.out.println("Matriz Original: ");
         for(int i = 0;i < 3;i++){
             for(int j = 0;j < 3;j++){
-                    System.out.println(matriz[i][j]+" ");   
+                    System.out.print(matriz[i][j]+" ");   
             }
             System.out.println();
         }
@@ -30,7 +30,7 @@ public class Matriz_Ejercicio_3 {
         //matriz transpuesta
         for(int i = 0;i < 3;i++){
                 for(int j = 0;j < 3;j++){
-                        System.out.println(matriz[j][i]+" ");
+                        System.out.print(matriz[j][i]+" ");
                 }
                 System.out.println();
                     

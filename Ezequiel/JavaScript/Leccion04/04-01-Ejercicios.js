@@ -125,3 +125,138 @@ switch (mes) {
         estacion = "Valor Incorrecto";
 }
 console.log("Bienvenido a la estacion de " + estacion)
+
+let days = 'Sábado';
+
+switch (days) {
+    case 'Lunes':
+        console.log('Hoy es ' + days);
+        break;
+    case 'Martes':
+        console.log('Hoy es ' + days);
+        break;
+    case 'Miércoles':
+        console.log('Hoy es ' + days);
+        break;
+    case 'Jueves':
+        console.log('Hoy es ' + days);
+        break;
+    case 'Viernes':
+        console.log('Hoy es ' + days);
+        break;
+    case 'Sábado':
+        console.log('Hoy es ' + days);
+        break;
+    case 'Domingo':
+        console.log('Hoy es ' + days);
+        break;
+    default:
+        console.log('Día no válido');
+}
+
+let today = new Date();
+let dayOfWeek = today.getDay();
+
+let dayName;
+switch (dayOfWeek) {
+    case 0:
+        dayName = "Domingo";
+        break;
+    case 1:
+        dayName = "Lunes";
+        break;
+    case 2:
+        dayName = "Martes";
+        break;
+    case 3:
+        dayName = "Miércoles";
+        break;
+    case 4:
+        dayName = "Jueves";
+        break;
+    case 5:
+        dayName = "Viernes";
+        break;
+    case 6:
+        dayName = "Sábado";
+        break;
+    default:
+        dayName = "Día desconocido";
+        break;
+}
+
+console.log("Hoy es " + dayName);
+
+
+let days2 = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
+
+function getDay(n) {
+    if (n < 1 || n > 7) {
+        throw new Error('out of range');
+    }
+    return days2[n - 1];
+}
+
+console.log(getDay(5));
+
+/*
+Hacer un ejercicio similar al que esta hecho, pero ahora con los meses del anio, 
+debes hacerlo con la estructura switch y luego con la funcion en la opcion mejorada
+
+*/
+
+let month = 'Enero';
+
+switch (month) {
+    case 'Enero':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Febrero':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Marzo':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Abril':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Mayo':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Junio':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Julio':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Agosto':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Septiembre':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Octubre':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Noviembre':
+        console.log('Este mes es ' + month);
+        break;
+    case 'Diciembre':
+        console.log('Este mes es ' + month);
+        break;
+    default:
+        console.log('Mes no válido');
+}
+
+
+let months = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+
+function getMonth(n) {
+    if (n < 1 || n > 12) {
+        throw new Error('Fuera de rango');
+    }
+    return months[n - 1];
+}
+
+console.log(getMonth(3)); // Esto imprimirá "Marzo"
+

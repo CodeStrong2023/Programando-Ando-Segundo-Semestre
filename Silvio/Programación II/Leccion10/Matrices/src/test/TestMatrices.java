@@ -29,19 +29,19 @@ public class TestMatrices {
         
         //Sintaxis clasica
         //String frutas[][]= new String[3][2];
-        
         //Sintaxis simplificada
+
         String frutas[][] = {{"limon", "pomelo"},{"ciruela","Kiwi"},{"Banana","Manzana"}};
         imprimir(frutas);
         
         Persona personas[][]= new Persona[3][2];
         //Asignamos valores a la matriz
-        personas[0][0] = new Persona("Uriel");
-        personas[0][1] = new Persona("Gaston");
-        personas[1][0] = new Persona("Omar");
-        personas[1][1] = new Persona("Andres");
-        personas[2][0] = new Persona("Nerea");
-        personas[2][1] = new Persona("Aisha");
+        personas[0][0] = new Persona("Silvio");
+        personas[0][1] = new Persona("Luis");
+        personas[1][0] = new Persona("Mario");
+        personas[1][1] = new Persona("Andrea");
+        personas[2][0] = new Persona("Ria");
+        personas[2][1] = new Persona("Aina");
         imprimir(personas);
     }
     

@@ -1,7 +1,6 @@
-/*
-    Ejercicio 2: Leer 5 numeros, guardarlos en un arreglo y 
-    mostrarlos en el orden inverso
- */
+
+   // Ejercicio 2: Leer 5 numeros, guardarlos en un arreglo y mostrarlos en el orden inverso
+    
 package ejercicios;
 
 import javax.swing.JOptionPane;

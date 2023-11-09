@@ -66,3 +66,95 @@ else{
     estado = "Hora incorrecta";
 }
 console.log("En esa hora el estado de la persona es: "+estado)
+
+//Evitar repetir tu codigo
+let day = 'Sabado';
+switch(day){
+    case 'Lunes':
+        console.log('Hoy es '+day);
+        break;
+    case 'Martes':
+        console.log('Hoy es '+day);
+        break;
+    case 'Miercoles':
+        console.log('Hoy es '+day);
+        break;
+    case 'Jueves':
+        console.log('Hoy es '+day);
+        break;
+    case 'Viernes':
+        console.log('Hoy es '+day);
+        break;
+    case 'Sabado':
+        console.log('Hoy es '+day);
+        break;
+    case 'Domingo':
+        console.log('Hoy es '+day);
+        break;
+    default:
+        console.log('Dia incorrecto');
+}
+
+let days = ['Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado', 'Domingo'];
+console.log(getDay(4));
+
+function getDay(n){
+    if(n < 1 || n > 7){
+        throw new Error('out of range');
+    }
+    return days[n-1];
+}
+
+
+//Ejercitacion meses del año
+mes = 3;
+switch(mes){
+    case 1:
+        console.log('El mes es Enero');
+        break;
+    case 2:
+        console.log('El mes es Febrero');
+        break;
+    case 3:
+        console.log('El mes es Marzo');
+        break;
+    case 4:
+        console.log('El mes es Abril');
+        break;
+    case 5:
+        console.log('El mes es Mayo');
+        break;
+    case 6:
+        console.log('El mes es Junio');
+        break;
+    case 7:
+        console.log('El mes es Julio');
+        break;
+    case 8:
+        console.log('El mes es Agosto');
+        break;
+    case 9:
+        console.log('El mes es Septiembre');
+        break;
+    case 10:
+        console.log('El mes es Octubre');
+        break;
+    case 11:
+        console.log('El mes es Noviembre');
+        break;
+    case 12:
+        console.log('El mes es Diciembre');
+    default:
+        console.log('Mes incorrecto');
+}
+
+
+let meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+console.log(getMes(8));
+
+function getMes(n){
+    if(n < 1 || n > 12){
+        throw new Error('out of range');
+    }
+    return meses[n-1];
+}

@@ -1,0 +1,40 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>30</x><y>60</y><w>210</w><h>210</h></coordinates><panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
+- idOdern
+-producto[ ]: Producto
+-ContadorOrdenes: int
+MAX_PRODUCTOS: int = 10
+--
++ORden ( )
++agregarProducto(producto: Producto
++calcularTotal( ): double
++mostrarOrden( ): void
+--
+Responsabilidades
+- Crear objetos Orden
+- Administrar los productos</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>50</x><y>260</y><w>240</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;Un producto se agrega a una orden&gt;&gt;</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>30</x><y>350</y><w>210</w><h>310</h></coordinates><panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+-idProducto: int
+-nombre: String
+-precio: double
+contadorProductos: int
+--
+-Producto( )
++Producto(nombre: String, precio :double)
++getIdProducto( ): int
++getNombre( ): String
++setNombre(nombre: String): void
++get_Precio( ): double
++setPrecio(precio: double): void
++toString( ): string
+--
+Responsibilities
+-Crear objetos de tipo Producto</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>180</x><y>10</y><w>210</w><h>40</h></coordinates><panel_attributes>lt=&lt;.&gt;
+</panel_attributes><additional_attributes>10;20;190;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>330</x><y>50</y><w>210</w><h>90</h></coordinates><panel_attributes>&lt;&lt;VentasTest&gt;&gt;
+--
++main(Args: STring[ ]): void
+--
+Responsibilities
+- Ejecutar la prueda de la aplicacion 
+de ventas</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>10</x><y>40</y><w>280</w><h>650</h></coordinates><panel_attributes></panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>20</x><y>10</y><w>160</w><h>30</h></coordinates><panel_attributes>Un dominio, Direccion</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>380</x><y>20</y><w>100</w><h>30</h></coordinates><panel_attributes>Test Ventas</panel_attributes><additional_attributes></additional_attributes></element></diagram>

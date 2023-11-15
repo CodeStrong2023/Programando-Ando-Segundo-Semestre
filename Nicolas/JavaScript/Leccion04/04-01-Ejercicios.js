@@ -124,3 +124,124 @@ console.log("Bienvenido a la estacion de: "+estacion)
 
 
 
+//let days = ['Lunes', "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+let days = "Sabado";
+switch (days) {
+    case "Lunes":
+        console.log("Hoy es "+days)
+        break;
+    
+    case "Martes":
+        console.log("Hoy es "+days)
+        break;
+    
+    case "Miercoles":
+        console.log("Hoy es "+days)
+        break;
+
+    case "Jueves":
+        console.log("Hoy es "+days)
+        break;
+    
+    case "Viernes":
+        console.log("Hoy es "+days)
+        break;
+
+    case "Sabado":
+        console.log("Hoy es "+days)
+        break;
+
+    case "Domingo":
+        console.log("Hoy es "+days)
+        break;
+
+    default:
+        console.log("Error en el ingreso del dia de la semana");
+        break;
+    
+
+
+}
+// Esta es la version mejorada
+
+let days2 = ['Lunes', "Martes", "Miercoles", "Jueves", "Viernes", "Sabado", "Domingo"];
+function getDay(n){
+    if(n < 1 || n > 7){
+        throw new Error("out of range");
+    }
+    return days2[n-1];
+}
+
+console.log(getDay(5));
+
+
+// Ejercicio meses del año
+
+let month = 11;
+switch (month) {
+    case 1:
+        console.log("Hoy es "+month)
+        break;
+    
+    case 2:
+        console.log("Hoy es "+month)
+        break;
+    
+    case 3:
+        console.log("Hoy es "+month)
+        break;
+
+    case 4:
+        console.log("Hoy es "+month)
+        break;
+    
+    case 5:
+        console.log("Hoy es "+month)
+        break;
+
+    case 6:
+        console.log("Hoy es "+month)
+        break;
+
+    case 7:
+        console.log("Hoy es "+month)
+        break;
+    
+    case 8:
+            console.log("Hoy es "+month)
+            break;
+    
+    case 9:
+            console.log("Hoy es "+month)
+            break;
+    
+    case 10:
+            console.log("Hoy es "+month)
+            break;
+
+    case 11:
+            console.log("Hoy es "+month)
+            break;
+    
+    case 12:
+            console.log("Hoy es "+month)
+            break;
+
+    default:
+        console.log("Error en el mes del año");
+        break;
+    
+
+
+}
+// Esta es la version mejorada
+
+let month2 = ['Enero', "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
+function getMes(n){
+    if(n < 1 || n > 12){
+        throw new Error("out of range");
+    }
+    return month2[n-1];
+}
+
+console.log(getMes(5));

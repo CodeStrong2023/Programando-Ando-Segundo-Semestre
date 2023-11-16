@@ -1,8 +1,8 @@
-/*
-Ejercicio 3: Leer 5 numeros por teclado, almacenarlos en un arreglo
-y a continuacion realizar la media de los positivos,
-la media de los negativos y contar el numero de ceros
- */
+
+//Ejercicio 3: Leer 5 numeros por teclado, almacenarlos en un arreglo
+//y a continuacion realizar la media de los positivos,
+//la media de los negativos y contar el numero de ceros
+
 package ejercicios;
 
 import javax.swing.JOptionPane;

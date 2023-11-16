@@ -1,6 +1,4 @@
-/*
- Ejercicio 1: Leer 5 numeros, guardarlos en un arreglo y ostrarlos en el mismo orden introducidos
-*/
+
 package ejercicios;
 
 import javax.swing.JOptionPane;
